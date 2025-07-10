@@ -3,9 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vishnu's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <p>Hello, World!</p>
+    <div class="bg-portfolio">
+    <div class="welcome">
+    <h1 class="welcome-greet">Welcome to My portfolio</h1>
+    </div>
+    <div class="anchor_list_img">
+        <div class="my_name">
+            <h2 class="vishnu"> Hi, <br> I'am <span class="name_span">Vishnu</span> <br>Web Designer</h2>
+            
+            <button class="btn-contact">Contact</button>
+
+        </div>
+        <div>
+            <img class="img_vis" src="vishnu.jpg" alt="">
+        </div>
+        </div>
+        <div>
+            <ul class="anchor_list">
+                <li>
+                    <a href="#about_me" class="anchor_tag">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="anchor_tag">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#skills" class="anchor_tag">Skills</a>
+                </li>
+                <li>
+                    <a href="#services" class="anchor_tag">Services</a>
+                </li>
+                <li>
+                    <a href="#blog" class="anchor_tag">Blog</a>
+                </li>
+                <li>
+                    <a href="#Achievements" class="anchor_tag">Achievements</a>
+                </li>
+                <li>
+                    <a href="#education" class="anchor_tag">Education</a>
+                </li>
+                <li>
+                    <a href="#hobbies" class="anchor_tag">Hobbies</a>
+                 </li>
+                <li>
+                    <a href="#contact" class="anchor_tag">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="about_sec" id="about_me">About Me</h2>
+            <p class="about_me_para"><b>Hello!</b> I am a dedicated Frontend Developer, with expertise in creating innovative solutions and delivering exceptional results.</p>
+        </div>
+        <div>
+            <h2 class="portfolio_sec" id="portfolio">Portfolio</h2>
+            <p class="about_me_para">Here are some of the projects I've worked on:</p>
+            <div>
+            <table id="table_projects" border="1" class="table_project">
+                <tr>
+                    <td><h4 class="table_heading"><b>Project Name</b></h4></td>
+                    <td><h4 class="table_heading"><b>Description</b></h4></td>
+                    <td><h4 class="table_heading"><b>Technologies Used</b></h4></td>
+                </tr>
+                <tr>                  
+                    <td>Project 1</td>
+                    <td>A web application for managing tasks</td>
+                    <td>HTML, CSS, Javascript</td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>A responsive e-commerce website</td>
+                    <td>React, Node.js</td>
+                </tr>
+                <tr>
+                    <td>Project 3</td>
+                    <td>A mobile app for fitness tracking</td>
+                    <td>Flutter, Firebase</td>
+                
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div class="skills">
+            <h2 class="portfolio_sec" id="skills">Skills</h2>
+            <ul>
+                <li><b>Frontend Development:</b> HTML, CSS, Javascript, Bootstrap, React.js</li>
+                <li><b>Backend Development:</b> Node.js, Python</li>
+                <li><b>Databases:</b> MySQL, MongoDB</li>
+                <li><b>Tools: </b>Git, Docker</li>
+            </ul>
+        </div>
+        <div class="services">
+            <h2 class="portfolio_sec" id="services">Services</h2>
+            <ol>
+                <li>Custom Web Development</li>
+                <li>mobile Application</li>
+                <li>UI/UX Application Design</li>
+            </ol>
+        </div>
+        <div class="blog">
+            <h2 class="portfolio_sec" id="blog">Blog</h2>
+            <p>Check out my latest Blog posts:</p>
+            <ul>
+                <li><a href="#" class="blog_list_item">How to build a portfolio Website.</a></li>
+                <li><a href="#" class="blog_list_item">Top 10 Web Development Tools in 2025</a></li>
+                <li><a href="#" class="blog_list_item">Mastering Javascript in 30 Days</a></li>
+            </ul>
+        </div>
+        <div class="Achievements" id="Achievements">
+            <h2 class="portfolio_sec">Achievements</h2>
+            <h5>Awards: </h5>
+            <ul>
+                <li>Best Developer Award 2023</li>
+                <li>Top performer at google Company</li>
+            </ul>
+        </div>
+        <div class="education" id="education">
+            <h2 class="portfolio_sec">Education</h2>
+            <table border="2" class="table_project">
+                <tr>
+                    <td class="table_heading"><b>Degree</b></td>
+                    <td class="table_heading"><b>Institution</b></td>
+                    <td class="table_heading"><b>Year</b></td>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>Jntuh University</td>
+                    <td>2021-2025</td>
+                </tr>
+                <tr>
+                    <td>Masters in software Developer</td>
+                    <td>NxtWave</td>
+                    <td>2024-2025</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="Hobbies" id="hobbies">
+            <h2 class="portfolio_sec">Hobbies</h2>
+            <p>I enjoy: </p>
+            <ul>
+                <li>Reading Technologies books</li>
+                <li>Top performer at google Company</li>
+                <li>Playing outside games</li>
+            </ul>
+        </div>
+        <div class="contact" id="contact">
+            <p>Feel free to reach me:</p>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br/>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <p><b>Message:</b></p>
+            <textarea name="Message" id="a" cols="100" rows="10">
+
+            </textarea>
+        </div>
+        </div>
+        <button class="btn-contact" id="submit-btn">Submit</button>
+        <div class="footer">
+            <p> &copy;2025 Vishnu, All rights reserved</p>
+        </div>
+    </div>
 </body>
 </html>
