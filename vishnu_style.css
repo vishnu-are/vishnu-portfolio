@@ -1,0 +1,89 @@
+welcome{
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    width: fit-content;
+
+}
+.anchor_list{
+    text-decoration: none;
+}
+.anchor_tag{
+    text-decoration: none;
+    color: #ffffff;
+}
+.about_sec{
+    color: rgb(201, 20, 32);
+}
+.portfolio_sec{
+    color: rgb(201, 20, 32);
+}
+.table_project{
+    border: solid;
+    border-color: rgb(20, 19, 19);
+    border-radius: 10px;
+}
+.img_vis{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 50%;
+    background-color: #1D3557;
+    padding: 5px;
+}
+.anchor_list_img{
+    display: flex;
+    flex-direction: row;
+}
+.bg-portfolio{
+    background-color: #74859c;
+    color: #ffffff;
+    padding: 15px;
+}
+.about_me_para{
+    padding-left: 15px;
+}
+#table_projects{
+    margin-left: 15px;
+    border-color: black;
+}
+.table_heading{
+    color: #111112d0;
+    text-align: center;
+}
+.blog_list_item{
+    text-decoration: none;
+    color: #ffffff;
+}
+.my_name{
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #F1FAEE;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.btn-contact{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+    padding: 2px;
+    width: 80px;
+    height: 30px;
+}
+.name_span{
+    color: rgb(17, 38, 226);
+}
+.vishnu{
+    color: #000;
+}
+#submit-btn{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.footer{
+    margin-left: 10px;
+    margin-top: 5px;
+}
